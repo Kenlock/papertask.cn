@@ -28,7 +28,7 @@ define('DB_NAME', 'papertask.cn');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Liuyuhan2016!@#');
+define('DB_PASSWORD', 'Liuyuhan2016!');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
