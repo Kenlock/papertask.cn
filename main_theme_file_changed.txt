@@ -1,0 +1,222 @@
+Basic:
+
+
+Disable youtube
+
+1. /freelanceengine/js/fre-lib.js
+
+     src="//www.youtube.com/iframe_api"  => src="#"
+
+2. /freelanceengine/includes/aecore/assets/js/chosen.js
+
+     src:"//www.youtube.com/embed/%id%?autoplay=1" => src:"#"
+
+3. /freelanceengine/assets/js/fre-lib.js
+
+     src="//www.youtube.com/iframe_api" => src="#"
+
+Disable addthis.com
+
+4.  /freelanceengine/functions.php
+
+	disable addthis.com share function. line 891.
+
+            /*
+            // add this for social like
+            $this->add_script('addthis-script', '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4ed5eb280d19b26b', array() , ET_VERSION, true);
+            */
+
+Others
+
+5. /freelanceengine/includes/projects.php
+
+6. /freelanceengine/includes/profiles.php
+
+7.  /freelanceengine/includes/vc_blocks/projects.php
+
+8.  /freelanceengine/includes/template.php
+
+	change archive icon from trash to archive (<i class="fa fa-trash-o"> to <i class="fa fa-archive">)
+
+
+Alipay
+
+9. /freelanceengine/includes/escrow/index.php
+
+10. ADD FILE /freelanceengine/includes/escrow/cacert.pem
+
+11. ADD DIR /freelanceengine/includes/escrow/alipay
+
+12. ADD FILE /freelanceengine/includes/escrow/alipay.php
+
+13. ADD FILE /freelanceengine/includes/escrow/alipay.config.php
+
+14. ADD FILE /freelanceengine/assets/js/accept-alipay-bid.js
+
+
+15. /freelanceengine/includes/admin.php, add code below
+
+                array(
+                    'args' => array(
+                        'title' => __("Alipay", ET_DOMAIN) ,
+                        'id' => 'alipay',
+                        'class' => 'payment-gateway',
+                        'desc' => __("Enabling this will allow your users to pay through Alipay", ET_DOMAIN) ,
+
+                        'name' => 'alipay'
+                    ) ,
+                    'fields' => array(
+                        array(
+                            'id' => 'alipay',
+                            'type' => 'switch',
+                            'title' => __("Align", ET_DOMAIN) ,
+                            'name' => 'enable',
+                            'class' => 'option-item bg-grey-input '
+                        ) ,
+                        array(
+                            'id' => 'alipay_mode',
+                            'type' => 'text',
+                            'title' => __("Align", ET_DOMAIN) ,
+                            'name' => 'api_username',
+                            'class' => 'option-item bg-grey-input ',
+                            'placeholder' => __('Enter your Alipay email address or account ID', ET_DOMAIN)
+                        )
+                    )
+                ) ,
+
+
+
+16. /freelanceengine/includes/escrow/settings.php, add code below
+
+                array(
+                    'args' => array(
+                        'title' => __("Alipay Settings", ET_DOMAIN) ,
+                        'id' => 'use-escrow-alipay',
+                        'class' => '',
+                        'name' => 'escrow_alipay',
+                        'desc' => __("Use Alipay API to setup escrow system.", ET_DOMAIN) . $api_link
+                    ) ,
+                    
+                    'fields' => array(
+                        // array(
+                        //     'id' => 'use_escrow_paypal',
+                        //     'type' => 'switch',
+                        //     'title' => __("use escrow", ET_DOMAIN) ,
+                        //     'name' => 'use',
+                        //     'class' => ''
+                        // ),
+                        array(
+                            'id' => 'use_escrow_alipay',
+                            'type' => 'text',
+                            'label' => __("Your Alipay business email or account ID", ET_DOMAIN) ,
+                            'name' => 'business_mail_id',
+                            'class' => ''
+                        ),
+                        
+                    )
+                ),
+                array(
+                    'args' => array(
+                        'title' => __("Alipay API", ET_DOMAIN) ,
+                        'id' => 'use-escrow-alipay',
+                        'class' => '',
+                        'name' => 'escrow_alipay_api',
+                        // 'desc' => __("Your Paypal Adaptive API", ET_DOMAIN)
+                    ) ,
+                    
+                    'fields' => array(
+                        array(
+                            'id' => 'alipay_partner_id',
+                            'type' => 'text',
+                            //'title' => __("Your paypal API username", ET_DOMAIN) ,
+                            'name' => 'alipay_partner_id',
+                            'label' => __("Your Alipay partner ID (合作者身份ID)", ET_DOMAIN) ,
+                            'class' => ''
+                        ),
+                        array(
+                            'id' => 'alipay_key',
+                            'type' => 'text',
+                            //'placeholder' => __("Your paypal API password", ET_DOMAIN) ,
+                            'label' => __("Your Alipay security key (交易安全校验码)", ET_DOMAIN) ,
+                            'name' => 'alipay_key',
+                            'class' => ''
+                        ),
+                        array(
+                            'id' => 'alipay_payment_method',
+                            'type' => 'select',
+                            'title' => __("Alipay Payment Gateway Type", ET_DOMAIN) ,
+                            'label' => __("Alipay Payment Gateway Type", ET_DOMAIN) ,
+                            'name' => 'alipay_payment_method',
+                            'class' => '',
+                            'data' => array(
+                                // 'SENDER' => __("Sender pays all fees", ET_DOMAIN) ,
+                                'direct_pay' => __("Direct Payment (即时到账)", ET_DOMAIN)
+                            )
+                        )
+                    )
+                ),
+
+
+
+Payment:
+
+wp-content/themes/freelanceengine-child/page-process-payment.php
+wp-content/themes/freelanceengine/includes/aecore/payment/et-order.php
+wp-content/themes/freelanceengine/includes/aecore/class-ae-orders.php
+wp-content/themes/freelanceengine/includes/aecore/fields/container-payments.php
+wp-includes/plugin.php
+wp-content/themes/freelanceengine/includes/bids.php
+
+
+Review:
+
+wp-content/themes/freelanceengine/includes/review.php
+wp-content/themes/freelanceengine/assets/js/single-project.js
+wp-content/themes/freelanceengine/assets/js/authenticate.js
+
+
+Phone required:
+
+wp-content/themes/freelanceengine/assets/js/front.js
+
+
+Verified freelancer:
+
+wp-content/themes/freelanceengine/assets/js/front.js
+wp-content/themes/freelanceengine/functions.php
+wp-content/themes/freelanceengine/includes/projects.php
+
+
+Datepicker auto close:
+
+wp-content/plugins/ae_fields/assets/field.js
+wp-content/plugins/ae_fields/template/submit-field.php
+
+
+
+Add Deliver box:
+
+wp-content/themes/freelanceengine/includes/messages.php
+wp-content/themes/freelanceengine/assets/js/project-workspace.js
+
+ID photo:
+
+wp-content/themes/freelanceengine/assets/css/styles.css
+wp-content/themes/freelanceengine/includes/aecore/class-ae-post.php
+wp-content/themes/freelanceengine/includes/aecore/class-ae-users.php
+wp-content/themes/freelanceengine/mobile/css/custom.css
+wp-content/themes/freelanceengine/includes/aecore/class-ae-page.php
+wp-content/themes/freelanceengine/assets/js/portfolio-profile.js
+wp-content/themes/freelanceengine/assets/js/profile.js
+wp-content/themes/freelanceengine/css/custom.css
+wp-content/themes/freelanceengine/includes/aecore/assets/js/appengine.js
+
+upload files:
+
+wp-content/themes/freelanceengine/includes/aecore/assets/js/appengine.js
+wp-content/themes/freelanceengine/includes/aecore/class-ae-page.php
+wp-includes/post.php
+
+
+
+

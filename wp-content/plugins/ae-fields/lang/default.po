@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ae-fields\n"
+"Report-Msgid-Bugs-To: http://www.enginethemes.com/\n"
+"POT-Creation-Date: 2016-06-18 09:55+0700\n"
+"PO-Revision-Date: 2016-06-18 09:55+0700\n"
+"Last-Translator: dakachi <david87dang@gmail.com>\n"
+"Language-Team: Engine Themes <contact@enginethemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-KeywordsList: _e;__;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\YOUNGWORLD\\YW.THEME\\DirectoryEngine\\ae-fields\n"
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/ae_fields.php:41
+msgid "Meta Fields"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/ae_fields.php:54
+msgid "Fields List"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/ae_fields.php:77
+msgid "Taxonomies"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/ae_fields.php:91
+msgid "Taxonomies Lists"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/ae_fields.php:121
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:144
+msgid "Custom Fields"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/ae_fields.php:122
+msgid "CUSTOM FIELDS"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/ae_fields.php:126
+msgid "Easily add custom fields for your content"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:94
+msgid "Are you sure you want to delete this field?"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:132
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:133
+msgid "Custom fields"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:134
+msgid "Add New"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:135
+msgid "Add New Field"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:136
+msgid "Edit Field"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:137
+msgid "New Field"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:138
+msgid "All Fields"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:139
+msgid "View Field"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:140
+msgid "Search Fields"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:141
+msgid "No Field found"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/class-field-list.php:142
+msgid "NoFields found in Trash"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/functions.php:390
+msgid "Enter lowercase, do not leave spaces between the name."
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:8
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:9
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:8
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:9
+msgid "Field name"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:10
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:11
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:10
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:11
+msgid ""
+"A Field name should be unique, lowercase, do not leave spaces between the "
+"name."
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:16
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:17
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:16
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:17
+msgid "Field label"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:20
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:21
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:20
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:21
+msgid "Placeholder"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:24
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:25
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:24
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:25
+msgid "Short description about this field"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:28
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:29
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:28
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:29
+msgid "Post type"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:42
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:43
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:42
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:43
+msgid "Field type"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:44
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:45
+msgid "Text"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:45
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:46
+msgid "Textarea"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:46
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:47
+msgid "Datepicker"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:47
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:48
+msgid "Carousel"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:52
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:53
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:52
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:53
+msgid "Requirable"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:53
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:54
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:53
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:54
+msgid "This field will be required."
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form-js.php:57
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:58
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:57
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:58
+msgid "Save Field"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/field-form.php:61
+msgid "Note: After add field, remember to update permalink."
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:44
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:45
+msgid "Select"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:45
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:46
+msgid "Radio"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:46
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:47
+msgid "Checkbox"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form-js.php:47
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:48
+msgid "Multi Select"
+msgstr ""
+
+#: D:\YOUNGWORLD\YW.THEME\DirectoryEngine\ae-fields/settings-template/tax-form.php:61
+msgid "Note*: After add field, remember to update permalink."
+msgstr ""

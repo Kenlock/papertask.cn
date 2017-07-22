@@ -1,0 +1,9 @@
+.wp-menu-image img{
+	padding:4px 0 0 7px !important;
+	width:16px;
+	height:20px;
+}
+.mce-toolbar .mce-btn i{
+	background-size:auto;
+	background-repeat:no-repeat;
+}

@@ -1,0 +1,75 @@
+/*
+Theme Name:     Freelanceengine Child
+Theme URI:      http://enginetheme.com/
+Description:    Child theme for the FreelanceEngine theme
+Author:         enginethemes
+Author URI:     http://enginetheme.com/about/
+Template:       freelanceengine
+Version:        1.0
+*/
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue","Microsoft YaHei","黑体","宋体",Helvetica,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Helvetica Neue","Microsoft YaHei","黑体","宋体",Helvetica,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type=text] {
+    font-family: "Helvetica Neue","Microsoft YaHei","黑体","宋体",Helvetica,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.dropdown-menu {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.bg-sub-wrapper .color-left {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: #B0E051;
+}
+
+.btn-sub-create {
+    background-color: #B0E051;
+    padding: 13px 60px;
+    box-shadow: 0 2px 0 #83A93B;
+    font-weight: 400;
+}
+
+.btn-apply-project {
+    padding: 7px 25px;
+    background-color: #B0E051;
+    box-shadow: 0 2px 0 #83A93B;
+    font-weight: 400;
+}
+
+.btn-apply-project-item, .btn-view-profile, .btn-excecute-project, .btn-refund-project {
+    border-radius: 4px;
+    background-clip: padding-box;
+    background-color: #B0E051;
+    box-shadow: 0 2px 0 #83A93B;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px 18px;
+    float: right;
+    letter-spacing: 1.1px;
+}
+
+.odometer {
+    color: #B0E051;
+}
+
+
+
+.btn-apply-project-item.btn-danger, .btn-apply-project-item.btn-quit-project.btn-danger {
+    background-color: #F44336 !important;
+    box-shadow: 0 2px 0 #8a4641 !important;
+}
